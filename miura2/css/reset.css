@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Reset CSS - 2020.03
+---------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, ruby, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, fieldset, legend, label, header, footer, hgroup, menu, nav, main, article, section, aside, details, figure, figcaption, canvas, embed, output, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+header, footer, hgroup, menu, nav, main, article, section, aside, details, figure, figcaption {
+	display: block;
+}
+
+html {
+	overflow-y: scroll;
+	font-size: 62.5%;
+}
+
+body {
+	line-height: 1;
+	color: #333333;
+	text-align: justify;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+	box-sizing: border-box;
+}
+
+body * {
+	box-sizing: inherit;
+	position: relative;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+hr {
+	display: none;
+}
+
+address, em {
+	font-style: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, button, textarea, select {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+img {
+	vertical-align: bottom;
+	border: none;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Fonts
+---------------------------------------------------*/
+body {
+	font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+
+/* clearfix
+---------------------------------------------------*/
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
